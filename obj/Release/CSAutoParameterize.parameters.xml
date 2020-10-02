@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="zulupageConnectionString-Web.config Connection String" description="zulupageConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=DESKTOP-5LPGIL1;Initial Catalog=zulupage;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mateo\\source\\repos\\Zulu-K\ Page\\Zulu-K\ Page\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='zulupageConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,42 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #D7D7D7;
+    font-family: Century;
+    color:black;
+    font-size:18px;
+}
+.imagenPrincipal{
+    margin: 0 auto;
+}
+ul {
+    width: 600px;
+    height: 27px;
+    margin: 0px auto;
+}
+ul li{
+    float:left;
+    width:25%;
+    list-style:none;
+    border-right:1px solid #fff;
+    text-align:center;
+}
+.borde-none {
+    border-left: 1px solid #fff;
+}
+ul li a:link, ul li a:visited {
+    color: dodgerblue;
+    text-decoration:none;
+    display: block;
+}
+ /*Hover*/
+ul li:hover{
+    background-color: dodgerblue;
+    transition: .6s;
+}
+ul li a:hover {
+    color: #D7D7D7;
+    transition: .6s;
+}

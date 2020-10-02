@@ -1,0 +1,49 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="masterZulu.Master.vb" Inherits="Zulu_K_Page.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/contenedorYFotter.css" rel="stylesheet" />
+    <link href="css/masterZulu.css" rel="stylesheet" />
+    <link href="icomoon/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <div id="container">
+            <div class="row">
+                <img class="imagenPrincipal" src="img/logoPrincipal.png" width="500"/>
+            </div>
+            <nav>
+                <ul>
+                    <li class="borde-none"><a href="index.aspx">Inicio</a></li>
+                    <li><a href="productos.aspx">Productos</a></li>
+                    <li><a href="contacto.aspx">Contacto</a></li>
+                    <li><a href="donde-estamos.aspx">Ubicacion</a></li>
+                </ul>
+            </nav>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        <footer>
+                <div class="row col-12">
+                    <div class="separar col-6">
+                        <p>MercadoShop: <a href="https://zulu-kayak.mercadoshops.com.ar/">zulu-kayak.mercadoshops.com.ar</a></p>
+                        <p>Mercado Libre: <a href="https://listado.mercadolibre.com.ar/_CustId_172459880">Zulu-Kayaks</a></p>
+                        <p>Ventas por Mayor: <a href="tel:3364311518">3364311518</a></p>
+                    </div>
+                    <div class="col-6">
+                        <p>Email: <a href="mailto:zulukayaks@gmail.com">zulukayaks@gmail.com</a></p>
+                        <p>Ubicacion: <a href="https://www.google.com/maps/place/Zulu-K/@-33.3861891,-60.2176662,18.54z/data=!4m5!3m4!1s0x95b76785a5d76701:0x3056c43442657343!8m2!3d-33.3859636!4d-60.217948">Irigoyen 1997, San Nicolás de Los Arroyos, Buenos Aires</a></p>
+                    </div>
+                </div>
+            <div class="col-12 text-center" style="margin: 20px 0 0 0; font-size:14px;">
+                <p>copyright <a href="#">Zulu-Kayak</a></p>
+            </div>
+        </footer>
+        </div>
+</body>
+</html>
