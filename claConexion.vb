@@ -7,10 +7,10 @@ Public Class claConexion
 
         Dim strconexion As String
 
-        strconexion = "Data Source=DESKTOP-5LPGIL1;Initial Catalog=zulupage;Integrated Security=True"
-        'strconexion = "Data Source=SQL5080.site4now.net;Initial Catalog=DB_A68458_Ateo19;User Id=DB_A68458_Ateo19_admin;Password=Nokialumia520;"
-        'strconexion="Data Source=190.190.200.100,1433;Network Library=DBMSSOCN;Initial Catalog=myDataBase;User ID=DB_A68458_Ateo19_admin;Password=Password=Nokialumia520;"
-        'strconexion = "Provider=SQLOLEDB;Data Source=SQL5080.site4now.net;Initial Catalog=DB_A68458_Ateo19;User Id=DB_A68458_Ateo19_admin;Password=Nokialumia520;"
+        'strconexion = "Data Source=DESKTOP-5LPGIL1;Initial Catalog=zulupage;Integrated Security=True"
+        strconexion = "Data Source=SQL5080.site4now.net;Initial Catalog=DB_A68458_Ateo19;User Id=DB_A68458_Ateo19_admin;Password=*********;"
+        'strconexion="Data Source=190.190.200.100,1433;Network Library=DBMSSOCN;Initial Catalog=myDataBase;User ID=DB_A68458_Ateo19_admin;Password=Password=*****;"
+        'strconexion = "Provider=SQLOLEDB;Data Source=SQL5080.site4now.net;Initial Catalog=DB_A68458_Ateo19;User Id=DB_A68458_Ateo19_admin;Password=*****;"
 
 
         objConexion.ConnectionString = strconexion
